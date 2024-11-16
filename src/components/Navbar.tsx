@@ -8,7 +8,7 @@ const navLinks = [
   { name: "About", to: "about" },
 ];
 export default function Navbar() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   return (
     <header className="">
       <nav className="flex justify-between items-center gap-4 w-full">
