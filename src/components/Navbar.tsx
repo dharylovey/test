@@ -50,7 +50,7 @@ export default function Navbar() {
                 <NavLink
                   key={name}
                   to={to}
-                  className={`text-2xl md:text-3xl text-slate-600 hover:underline underline-offset-8  `}
+                  className={`text-2xl md:text-3xl text-slate-900 hover:underline underline-offset-8  `}
                   style={({ isActive }) => ({
                     color: isActive ? "black" : "",
                   })}
