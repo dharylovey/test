@@ -7,7 +7,7 @@ export default function About() {
   const workData = useWorkData();
   const { skills } = workData;
   return (
-    <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-slate-100 py-12 px-4 sm:px-6 lg:px-8">
       <header className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-gray-900 sm:text-5xl">
           About Me
