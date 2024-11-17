@@ -4,8 +4,8 @@ const workData = {
   name: "Dharyl Carry S. Almora",
   work: "Software Developer",
   description:
-    "Passionate about creating elegant solutions to complex problems. With over 5 years of experience in full-stack development, I specialize in building scalable web applications using modern technologies.",
-  address: "Dapa, Siargao Island Surigao del Norte, Philippines",
+    "Passionate about creating elegant solutions to complex problems. With over 1 years of experience in full-stack development, ",
+  address: "Dapa, Siargao Island, Surigao del Norte, Philippines",
   phone: "+639 353609957",
   email: "admin@dharyl.tech",
   skills: [

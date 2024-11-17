@@ -2,6 +2,7 @@ import Button from "../Button";
 import H1 from "../H1";
 import H2 from "../H2";
 import Paragraph from "../Paragraph";
+import { MdOutlineArrowDownward } from "react-icons/md";
 
 export default function Hero() {
   return (
@@ -21,7 +22,10 @@ export default function Hero() {
             </Paragraph>
             <div className="pt-6 flex justify-center md:justify-normal ">
               <Button className="shadow-xl hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500">
-                Download Resume
+                <span className="inline-flex items-center gap-3 group">
+                  Download Resume{" "}
+                  <MdOutlineArrowDownward className="w-6 h-6 items-center hidden group-hover:block" />
+                </span>
               </Button>
             </div>
           </div>

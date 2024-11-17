@@ -3,6 +3,7 @@ import featuredWorkData from "../../constant/featuredData";
 import Button from "../Button";
 import H2 from "../H2";
 import Paragraph from "../Paragraph";
+import { FaArrowRight } from "react-icons/fa6";
 
 interface Props {
   id: number;
@@ -65,7 +66,10 @@ function Featured({ title, year, video, description, category, id }: Props) {
         <div className="p-2">
           <Link to={`/work/${id}`}>
             <Button className="text-md shadow-xl hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500">
-              Read more...
+              <span className="inline-flex items-center gap-3 group">
+                Read More...{" "}
+                <FaArrowRight className="w-6 h-6 items-center hidden group-hover:block group-hover:transition-transform  cursor-pointer" />
+              </span>
             </Button>
           </Link>
         </div>
