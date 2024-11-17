@@ -1,3 +1,3 @@
 export default function About() {
-  return <div>About</div>;
+  return <div className="flex justify-center items-center h-full">About</div>;
 }

@@ -10,10 +10,10 @@ const navLinks = [
 export default function Navbar() {
   const [open, setOpen] = useState(true);
   return (
-    <header className="">
+    <header className="px-4">
       <nav className="flex justify-between items-center gap-4 w-full">
         <Link to="/">
-          <h1 className="text-2xl md:text-3xl text-slate-800 ">Dharyl</h1>
+          <h1 className="text-2xl md:text-3xl text-cyan-500">JustMe</h1>
         </Link>
         <div className="gap-4 hidden md:flex">
           {navLinks.map(({ name, to }) => (
