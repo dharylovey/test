@@ -11,9 +11,9 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="h-[150px]">
+    <footer className="h-[100px]">
       <div className="flex flex-col justify-center items-center h-full">
-        <div className="flex gap-4 justify-center items-center mb-6">
+        <div className="flex gap-4 justify-center items-center mb-4">
           {socialLinks.map(({ icon, href }) => (
             <Link
               to={href}

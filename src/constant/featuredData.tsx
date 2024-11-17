@@ -3,6 +3,8 @@ const featuredWorkData = [
     id: 1,
     video:
       "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095534/my_portfolio_video_assets/sumayloroofing_yblvrd.webm", // Placeholder video for Designing Dashboards
+    originalVideo:
+      "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095534/my_portfolio_video_assets/sumayloroofing_yblvrd.mp4",
     title: "Designing Dashboards",
     year: "2020",
     description:
@@ -13,6 +15,8 @@ const featuredWorkData = [
     id: 2,
     video:
       "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095534/my_portfolio_video_assets/gadgetshop_shq7zd.webm", // Placeholder video for E-Commerce Website
+    originalVideo:
+      "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095534/my_portfolio_video_assets/gadgetshop_shq7zd.mp4",
     title: "E-Commerce Website",
     year: "2021",
     description:
@@ -23,6 +27,8 @@ const featuredWorkData = [
     id: 3,
     video:
       "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095530/my_portfolio_video_assets/dharylblog_tp3rqb.webm", // Placeholder video for Portfolio Website
+    originalVideo:
+      "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095530/my_portfolio_video_assets/dharylblog_tp3rqb.mp4",
     title: "Portfolio Website",
     year: "2019",
     description:
@@ -33,6 +39,8 @@ const featuredWorkData = [
     id: 4,
     video:
       "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095532/my_portfolio_video_assets/megasoft_hslw2q.webm", // Placeholder video for Mobile App Design
+    originalVideo:
+      "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095532/my_portfolio_video_assets/megasoft_hslw2q.mp4",
     title: "Mobile App Design",
     year: "2022",
     description:
@@ -43,6 +51,8 @@ const featuredWorkData = [
     id: 5,
     video:
       "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095531/my_portfolio_video_assets/landingpageuiux_ge2aey.webm", // Placeholder video for Marketing Website
+    originalVideo:
+      "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095531/my_portfolio_video_assets/landingpageuiux_ge2aey.mp4",
     title: "Marketing Website",
     year: "2023",
     description:

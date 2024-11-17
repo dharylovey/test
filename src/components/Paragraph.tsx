@@ -8,7 +8,7 @@ interface Props {
 export default function H1({ children, className }: Props) {
   return (
     <p
-      className={`${className}text-sm md:text-base font-normal text-slate-800 leading-4`}
+      className={`${className}text-xs md:text-base font-normal text-slate-800 leading-4`}
     >
       {children}
     </p>

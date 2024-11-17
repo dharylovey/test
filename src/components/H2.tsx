@@ -5,7 +5,7 @@ interface Props {
   className?: string;
 }
 
-export default function H1({ children, className }: Props) {
+export default function H2({ children, className }: Props) {
   return (
     <h1 className={`${className} text-3xl font-semibold  text-slate-600`}>
       {children}
