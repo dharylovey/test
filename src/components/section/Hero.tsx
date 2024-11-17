@@ -19,8 +19,10 @@ export default function Hero() {
               consequatur magni ab sint! Aut quisquam ex, molestiae maiores ut
               quae! Sed alias quo a ipsa iure porro facere ipsam ad!
             </Paragraph>
-            <div className="pt-6 flex justify-center md:justify-normal">
-              <Button>Download Resume</Button>
+            <div className="pt-6 flex justify-center md:justify-normal ">
+              <Button className="shadow-xl hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500">
+                Download Resume
+              </Button>
             </div>
           </div>
         </div>

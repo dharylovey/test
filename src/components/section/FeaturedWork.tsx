@@ -44,7 +44,7 @@ function Featured({ title, year, video, description, category, id }: Props) {
   return (
     <div className="grid grid-cols-1 md:flex  w-full gap-4 border-b-2 py-4">
       <video
-        className=" w-[450px]  h-[300px] object-cover rounded-md"
+        className=" w-[450px]  h-[300px] object-cover rounded-md shadow-xl border-slate-300"
         src={video}
         autoPlay
         muted
@@ -64,7 +64,9 @@ function Featured({ title, year, video, description, category, id }: Props) {
         </div>
         <div className="p-2">
           <Link to={`/work/${id}`}>
-            <Button className="text-md">Read more...</Button>
+            <Button className="text-md shadow-xl hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500">
+              Read more...
+            </Button>
           </Link>
         </div>
       </div>
