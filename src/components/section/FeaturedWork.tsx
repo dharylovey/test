@@ -42,7 +42,7 @@ export default function FeaturedWork() {
 
 function Featured({ title, year, video, description, category, id }: Props) {
   return (
-    <div className="flex w-full gap-4 border-b-2 py-4">
+    <div className="grid grid-cols-1 md:flex  w-full gap-4 border-b-2 py-4">
       <video
         className=" w-[450px]  h-[300px] object-cover rounded-md"
         src={video}
@@ -60,7 +60,7 @@ function Featured({ title, year, video, description, category, id }: Props) {
           </div>
         </div>
         <div className="p-2">
-          <Paragraph className="px-6">{description}</Paragraph>
+          <Paragraph className="font-normal">{description}</Paragraph>
         </div>
         <div className="p-2">
           <Link to={`/work/${id}`}>
