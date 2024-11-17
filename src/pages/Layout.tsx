@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Toaster } from "sonner";
 
 export default function Layout() {
   return (
@@ -12,6 +13,24 @@ export default function Layout() {
       </div>
       <div>
         <Outlet />
+        <Toaster
+          duration={3000}
+          position="top-center"
+          icons={{
+            success: "👏",
+            error: "🚫",
+            info: "i️",
+            warning: "⚠️",
+          }}
+          toastOptions={{
+            classNames: {
+              error: "bg-red-400",
+              success: "bg-green-400",
+              info: "bg-blue-400",
+              warning: "bg-yellow-400",
+            },
+          }}
+        />
       </div>
       <Footer />
     </main>

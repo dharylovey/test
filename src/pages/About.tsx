@@ -18,7 +18,7 @@ export default function About() {
         <div className="md:flex">
           <div className="md:flex-shrink-0">
             <img
-              className="h-52 w-full object-cover md:w-52"
+              className="h-60 w-full object-cover md:w-60"
               src={workData.profileImg}
               alt="Profile picture"
             />
