@@ -35,7 +35,7 @@ export default function Work() {
           muted
         />
       </div>
-      <H1>{title}</H1>
+      <H1 className="mt-4 border-t-2 py-4 border-b-2 ">{title}</H1>
       <div className="flex gap-4 items-center p-2">
         <p className="text-white text-sm bg-black px-2 rounded-full">{year}</p>{" "}
         | <p className="text-slate-500">{category}</p>
