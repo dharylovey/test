@@ -5,7 +5,7 @@ import Paragraph from "../Paragraph";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center py-10  max-w-7xl mx-auto">
+    <div className="flex flex-col items-center justify-center py-10  max-w-7xl mx-auto md:px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
         <div className="order-2 md:order-1 flex flex-col items-center">
           <div className="space-y-2 pt-8 p-2 md:p-0">
