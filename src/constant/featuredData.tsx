@@ -1,37 +1,52 @@
 const featuredWorkData = [
   {
+    id: 1,
+    video:
+      "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095534/my_portfolio_video_assets/sumayloroofing_yblvrd.webm", // Placeholder video for Designing Dashboards
     title: "Designing Dashboards",
     year: "2020",
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "This project involved creating intuitive and functional dashboards for data visualization. Each design focused on clarity and user experience. Tools like charts, graphs, and interactive components were utilized effectively. The result was an engaging and user-friendly dashboard interface.",
     category: "Dashboard",
   },
   {
+    id: 2,
+    video:
+      "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095534/my_portfolio_video_assets/gadgetshop_shq7zd.webm", // Placeholder video for E-Commerce Website
     title: "E-Commerce Website",
     year: "2021",
     description:
-      "Developed a fully functional e-commerce website with user-friendly features and responsive design for a seamless shopping experience.",
+      "Developed a robust and scalable e-commerce platform tailored for seamless user navigation. Features include a responsive design to adapt across devices. Integrated payment gateways ensure secure and quick transactions. The platform provides an exceptional shopping experience for users.",
     category: "E-Commerce",
   },
   {
+    id: 3,
+    video:
+      "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095530/my_portfolio_video_assets/dharylblog_tp3rqb.webm", // Placeholder video for Portfolio Website
     title: "Portfolio Website",
     year: "2019",
     description:
-      "Created a visually appealing portfolio website to showcase creative work and professional achievements effectively.",
+      "Created a portfolio website showcasing creative projects and achievements. The site emphasizes a clean, visually appealing design. It features an easy-to-navigate interface for effective content presentation. The goal was to leave a lasting impression on viewers.",
     category: "Portfolio",
   },
   {
+    id: 4,
+    video:
+      "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095532/my_portfolio_video_assets/megasoft_hslw2q.webm", // Placeholder video for Mobile App Design
     title: "Mobile App Design",
     year: "2022",
     description:
-      "Designed a sleek and intuitive mobile application for both iOS and Android platforms, focusing on user experience and accessibility.",
+      "Designed an elegant mobile application for iOS and Android platforms. Prioritized intuitive navigation and accessible design. The app features responsive layouts and an engaging user interface. It delivers a seamless and enjoyable user experience.",
     category: "Mobile App",
   },
   {
+    id: 5,
+    video:
+      "https://res.cloudinary.com/dah8qhqok/video/upload/v1722095531/my_portfolio_video_assets/landingpageuiux_ge2aey.webm", // Placeholder video for Marketing Website
     title: "Marketing Website",
     year: "2023",
     description:
-      "Built a marketing website with engaging content and modern design elements to drive customer engagement and conversion.",
+      "Built a marketing website featuring captivating visuals and interactive elements. The design aligns with modern web trends to engage users. It incorporates strategic content placement to boost conversions. The result is a dynamic and impactful online presence.",
     category: "Marketing",
   },
 ];

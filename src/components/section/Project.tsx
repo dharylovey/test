@@ -16,8 +16,8 @@ export default function ProjectSection() {
 
   return (
     <div className="bg-[#EDF7FA]">
-      <div className="h-full mb-2 py-2 max-w-7xl mx-auto p-2 md:p-4">
-        <div className="flex justify-between py-4">
+      <div className="h-full mb-2 py-2 max-w-7xl mx-auto px-2 pb-6 md:p-4">
+        <div className="flex justify-between pt-4 mb-3">
           <h1 className="text-center md:text-start text-3xl">Projects</h1>
           <p
             className="text-center md:text-end text-[#00A8CC] hover:underline underline-offset-4 cursor-pointer"
