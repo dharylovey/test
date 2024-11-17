@@ -24,9 +24,8 @@ export default function Card({
         <div className="py-2">
           <H2>{title}</H2>
         </div>
-        <div className="flex justify-between">
-          <Paragraph>{date}</Paragraph>
-          <Paragraph>{platform}</Paragraph>
+        <div className="flex justify-start gap-6">
+          <Paragraph>{date}</Paragraph>|<Paragraph>{platform}</Paragraph>
         </div>
       </div>
       <div className="pt-4">{children}</div>

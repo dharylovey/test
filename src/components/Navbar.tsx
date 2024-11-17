@@ -54,6 +54,7 @@ export default function Navbar() {
                   style={({ isActive }) => ({
                     color: isActive ? "black" : "",
                   })}
+                  onClick={() => setOpen((prev) => !prev)}
                 >
                   {name}
                 </NavLink>

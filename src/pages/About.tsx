@@ -1,3 +1,5 @@
 export default function About() {
-  return <div className="flex justify-center items-center h-full">About</div>;
+  return (
+    <div className="flex justify-center items-center min-h-[80vh]  ">About</div>
+  );
 }
