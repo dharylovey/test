@@ -17,7 +17,7 @@ export default function ContactForm() {
   });
 
   const {
-    // reset,
+    reset,
     register,
     handleSubmit,
     formState: { errors, isSubmitting },
@@ -32,7 +32,7 @@ export default function ContactForm() {
       console.log(error);
       toast.error("Failed to send message.");
     }
-    // reset();
+    reset();
   };
 
   return (
