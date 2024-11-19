@@ -18,6 +18,7 @@ export default function H1({ children, className }: Props) {
           initial="hidden"
           animate="show"
           transition={{ duration: 0.5, delay: index / 10 }}
+          whileInView={{ opacity: 1 }}
           key={index}
         >
           {word}{" "}
