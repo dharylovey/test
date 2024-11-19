@@ -1,11 +1,10 @@
-import React from "react";
 import H2 from "./H2";
 import Paragraph from "./Paragraph";
 
 interface Props {
   title: string;
   date: string;
-  children: React.ReactNode;
+  children: string;
   platform: string;
   className?: string;
 }
@@ -28,7 +27,7 @@ export default function Card({
           <Paragraph>{date}</Paragraph>|<Paragraph>{platform}</Paragraph>
         </div>
       </div>
-      <div className="pt-4">{children}</div>
+      <Paragraph className="pt-4">{children}</Paragraph>
     </div>
   );
 }

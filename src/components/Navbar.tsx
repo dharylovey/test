@@ -2,31 +2,49 @@ import { Link, NavLink } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
+import { motion } from "framer-motion";
+import { navbarVarriants } from "../animation/framerMotion";
 
 const navLinks = [
   { name: "Contact", to: "contact" },
   { name: "About", to: "about" },
 ];
+
 export default function Navbar() {
   const [open, setOpen] = useState(true);
   return (
     <header className="px-4">
       <nav className="flex justify-between items-center gap-4 w-full">
         <Link to="/">
-          <h1 className="text-2xl md:text-3xl text-cyan-500">JustMe</h1>
+          <motion.h1
+            className="text-2xl md:text-3xl text-cyan-500"
+            variants={navbarVarriants}
+            initial="hidden"
+            animate="show"
+            whileHover={{ scale: 1.0, transition: { duration: 0.5 }, y: -5 }}
+            viewport={{ once: true }}
+          >
+            JustMe
+          </motion.h1>
         </Link>
         <div className="gap-4 hidden md:flex">
           {navLinks.map(({ name, to }) => (
-            <NavLink
+            <motion.div
+              initial="hidden"
+              animate="show"
+              variants={navbarVarriants}
               key={name}
-              to={to}
-              className={`text-2xl md:text-3xl text-slate-600 hover:underline underline-offset-8  `}
-              style={({ isActive }) => ({
-                color: isActive ? "black" : "",
-              })}
             >
-              {name}
-            </NavLink>
+              <NavLink
+                to={to}
+                className={`text-2xl md:text-3xl text-slate-600 hover:underline underline-offset-8  `}
+                style={({ isActive }) => ({
+                  color: isActive ? "black" : "",
+                })}
+              >
+                {name}
+              </NavLink>
+            </motion.div>
           ))}
         </div>
         <div className="md:hidden ">

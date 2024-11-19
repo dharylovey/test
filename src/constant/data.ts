@@ -1,4 +1,4 @@
-const projectData = [
+export const projectData = [
   {
     title: "Making a design system from scratch",
     date: "12 Feb 2020",
@@ -57,4 +57,9 @@ const projectData = [
   },
 ];
 
-export default projectData;
+export const profileData = {
+  name: "Dharyl Almora",
+  title: "Full Stack Developer",
+  description:
+    "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+};

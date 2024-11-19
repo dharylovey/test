@@ -1,12 +1,12 @@
 import { useState } from "react";
-import projectData from "../../constant/data";
+import { projectData } from "../../constant/data";
 import Card from "../Card";
 
 interface Props {
   title: string;
   date: string;
   platform: string;
-  description: React.ReactNode;
+  description: string;
 }
 
 export default function ProjectSection() {
